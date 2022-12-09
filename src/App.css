@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+  max-height: 500px;
+  border: 1px solid #000000;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.item {
+  padding: 20px 100px;
+  background-color: #f0f;
+}
