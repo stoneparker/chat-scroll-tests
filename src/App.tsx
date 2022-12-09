@@ -3,7 +3,6 @@ import './App.css';
 
 function App() {
   const [items, setItems] = useState([5, 4, 3, 2, 1]);
-  const [loading, setLoading] = useState(false);
 
   const anchorRef: any = useRef();
   const itemsRef: any = useRef();
